@@ -41,7 +41,12 @@ Click /help or Help button below to find out more about how to use me to my full
 
  Add me to a group by clicking [here](http://t.me/tg_GroupManagerBot?startgroup=true).
 """
-
+PM_START_TEXT = ("Hello, {}, My Name is {} !"
+                 "__I am Made from Source Code of [Haruka Aya](https://github.com/HarukaNetwork/HarukaAya) and [XDITYA](https://github.com/xditya/GroupManager)__\n\n"
+                 f"Currently, I am Maintained By [{ALIVE_NAME}](tg://user?id={OWNER_ID})\n\n"
+                 "Send /help to Know What Can I do."
+           
+                )
 
 IMPORTED = {}
 MIGRATEABLE = []
